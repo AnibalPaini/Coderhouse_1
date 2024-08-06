@@ -1,0 +1,151 @@
+/*Setters*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  padding: 2rem;
+  text-align: center;
+}
+
+h1, h2, h3, p, a, label, input {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/*Layouts*/
+/*HEADER*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 1rem 5rem;
+}
+header .logo img {
+  width: 120px;
+}
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+header nav ul li {
+  display: inline;
+}
+header nav ul li a {
+  color: #555;
+  text-decoration: none;
+  font-weight: bold;
+}
+header nav ul li a:hover {
+  color: black;
+  margin-right: 5px;
+}
+header .header__menu {
+  font-size: 35px;
+  cursor: pointer;
+  display: none;
+}
+
+/*FOOTER*/
+footer {
+  background-color: #f0f0f0;
+  padding: 1rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .iconos a {
+  font-size: 1.7rem;
+  color: #555;
+  text-decoration: none;
+  padding: 5px;
+}
+footer .iconos a:hover {
+  color: black;
+}
+footer .mt-6 {
+  margin-top: 180px;
+}
+
+/*FIN FOOTER*/
+/*Pages*/
+/*INDEX INICIO*/
+.section__inicio {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+.section__inicio p {
+  font-size: 1.2rem;
+  text-align: left;
+  width: 80%;
+}
+.section__inicio p:nth-child(2) {
+  margin-top: 10px;
+}
+.section__inicio .imagen__inicio {
+  display: flex;
+  justify-content: end;
+}
+.section__inicio .imagen__inicio img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+.section__destacados h2 {
+  font-size: 2rem;
+  margin: 10rem 0 1.5rem 0;
+}
+.section__destacados .productos__inicio {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 1000px;
+  margin: 0 auto;
+  gap: 2rem;
+}
+.section__destacados .productos__inicio .producto__inicio {
+  width: 300px;
+  margin-bottom: 2rem;
+}
+.section__destacados .productos__inicio .producto__inicio img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.section__destacados .productos__inicio .producto__inicio button {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #6200ea;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.section__destacados .productos__inicio .producto__inicio button:hover, .section__destacados .productos__inicio .producto__inicio .button__productos:hover {
+  background-color: #3700b3;
+}
+.section__destacados .productos__inicio .producto__inicio .button__productos--inicio {
+  display: block;
+  padding: 0.5rem;
+  background-color: #6200ea;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+/*FIN INDEX INICIO*/
+
+/*# sourceMappingURL=style.css.map */
