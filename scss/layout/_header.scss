@@ -4,7 +4,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f0f0f0;
+    background-color: #2E2E2E ;
     padding: 1rem 5rem;
     .logo {
         img {
@@ -21,21 +21,41 @@ header {
         li {
             display: inline;
             a {
-                color: #555;
+                color: rgb(160, 160, 160);
                 text-decoration: none;
                 font-weight: bold;
+                transition: 0.2s;
+                padding: 10px 15px;
+                border-radius: 50px;
             }
             a:hover {
-                color: black;
+                color: #fefefe;
+                background-color: #11101b;
                 margin-right: 5px;
                 }
             }
         }
     }
     .header__menu{
-        font-size: 35px;
-        cursor: pointer;
         display: none;
+        cursor: pointer;
+        .line{
+            transition: all 0.5s;
+        }
+    }
+    .header__menu.active .line:nth-child(1){
+        position: absolute;
+        top:74px;
+        transform: rotate(45deg);
+    }
+    .header__menu.active .line:nth-child(2){
+        transition: 0s;
+        opacity: 0;
+    }
+    .header__menu.active .line:nth-child(3){
+        position: absolute;
+        top:74px;
+        transform: rotate(135deg);
     }
 }
 

@@ -1,0 +1,128 @@
+@media (max-width: 700px) {
+    .section__destacados{
+        .productos{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 auto;
+            width: 100%;
+        }
+    }
+}
+@media (max-width: 900px) {
+    /*header*/
+    header{
+        .header__menu{
+            display: block;
+            .line{
+                width: 30px;
+                height: 3px;
+                background-color: black;
+                margin: 6px 0;
+                border-radius: 5px;
+            }
+        }
+        .nav-bar{
+            height: 0;
+            position: absolute;
+            top: 156px;
+            right: 0;
+            width: 300px;
+            background-color: rgb(211, 211, 211);
+            transition: 0.2s;
+            overflow: hidden;
+            ul{
+                display: block;
+                width: fit-content;
+                margin: 80px auto 0 auto;
+                text-align: center;
+                transition: 0.5s;
+                opacity: 0;
+                li{
+                    margin-bottom: 12px;
+                    flex-direction: column;
+                }
+            }
+            
+        }
+        .nav-bar.active{
+            height: 450px;
+        }
+        .nav-bar.active ul{
+            opacity: 1;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    /*FIN header*/
+    
+    /*INICIO*/
+    .section__inicio{
+        .imagen__inicio{
+            img{
+                max-width: 100%;
+            }
+        }
+    }
+    /*FIN INICIO*/
+
+    /*footer*/
+    footer{
+        .iconos{
+            display: flex;
+        }
+    }
+    /*FIN footer*/
+
+    /*NOSOTROS*/
+    .inicio__nosotros__parrafo--2,.inicio__nosotros__parrafo--3 {
+        display: none;
+    }
+    .section__quehacemos{
+        padding: 2rem;
+    }/*FIN NOSOTROS*/
+    
+}
+
+
+@media (max-width: 1050px) {
+    .section__inicio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        .imagen__inicio {
+            order: 2;
+        }
+        > div:first-child {
+            order: 1;
+        }
+        p{
+            text-align: center;
+            margin: 0 auto;
+            width: 100%;
+        }
+        .inicio__parrafo--2{
+            display: none;
+        }
+    }
+
+    /*Responsive productos*/
+    .section__destacados{
+        .productos {
+            grid-template-columns: repeat(2,1fr);
+            width: 100%;
+            margin: 0 auto;
+            gap: 2rem;
+            justify-content: center;
+            max-width: 800px;
+        }
+    }
+
+    .inicio__nosotros__parrafo--2,.inicio__nosotros__parrafo--3 {
+        display: none;/*NOSOTROS*/
+    }
+    .section__preguntas {
+        padding: 2rem 2.2rem;
+    }        
+}

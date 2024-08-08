@@ -28,13 +28,13 @@
     font-size: 2rem;
     margin: 10rem 0 1.5rem 0;
     }
-    .productos__inicio {
+    .productos{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         width: 1000px;
         margin: 0 auto;
         gap: 2rem;
-        .producto__inicio{
+        .producto{
             width: 300px;
             margin-bottom: 2rem;
             img {

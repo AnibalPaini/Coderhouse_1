@@ -1,25 +1,36 @@
 /*FOOTER*/
 
 footer {
-    background-color: #f0f0f0;
+    background-color: #2E2E2E;
     padding: 1rem 5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 30px;
+    p{
+        color: #FFFFFF;
+    }
     .iconos{
         a{
         font-size: 1.7rem;
-        color: #555;
+        color: #FFFFFF;
         text-decoration: none;
         padding: 5px;
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        text-align: center;
+        line-height:30px;
         }
         a:hover{
             color: black;
+            background-color: #FFFFFF;
+            border-radius: 50%;
         }
     }
-    .mt-6{
-        margin-top: 180px;
-    }
+}
+.mt-6{
+    margin-top: 180px;
 }
 
 

@@ -1,0 +1,23 @@
+.section__preguntas {
+    text-align: left;
+    padding: 2rem 5rem;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin: 2rem auto 4rem auto;
+    max-width: 1000px;
+    .pregunta {
+        margin-bottom: 1.5rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+    p {
+        font-size: 1.2rem;
+    }
+    ol{
+        margin:5px 0 5px 17px;
+        font-size: 1.2rem;
+        
+    }
+}
