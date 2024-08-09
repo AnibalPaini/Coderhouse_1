@@ -4,8 +4,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #2E2E2E ;
+    background-color: #f0f0f0 ;
     padding: 1rem 5rem;
+    box-shadow: 1px 1px 5px 0px rgba(110,110,110,0.3);
     .logo {
         img {
         width: 120px;
@@ -21,7 +22,7 @@ header {
         li {
             display: inline;
             a {
-                color: rgb(160, 160, 160);
+                color: rgb(133, 133, 133);
                 text-decoration: none;
                 font-weight: bold;
                 transition: 0.2s;

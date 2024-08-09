@@ -27,7 +27,7 @@
             position: absolute;
             top: 156px;
             right: 0;
-            width: 300px;
+            width: 100vw;
             background-color: rgb(211, 211, 211);
             transition: 0.2s;
             overflow: hidden;
@@ -46,7 +46,7 @@
             
         }
         .nav-bar.active{
-            height: 450px;
+            height: 100vh;
         }
         .nav-bar.active ul{
             opacity: 1;
