@@ -1,18 +1,18 @@
 /*Setters*/
-@import "./scss/reset/reset";
-@import "./scss/reset/typography";
+@import "./reset/reset";
+@import "./reset/typography";
 
 /*Layouts*/
-@import "./scss/layout/header";
-@import "./scss/layout/footer";
+@import "./layout/header";
+@import "./layout/footer";
 
 /*Pages*/
-@import"./scss/pages/inicio";
-@import"./scss/pages/nosotros";
-@import"./scss/pages/preguntas";
-@import"./scss/pages/productos";
-@import"./scss/pages/contacto";
+@import"./pages/inicio";
+@import"./pages/nosotros";
+@import"./pages/preguntas";
+@import"./pages/productos";
+@import"./pages/contacto";
 
 
 /*Query*/
-@import"./scss/query/query";
+@import"./query/query";
